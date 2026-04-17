@@ -1,8 +1,3 @@
-"""
-GameScript AI — Text to 2D Platformer (Python + Pygame)
-Uses Claude API to parse game descriptions into varied game configs.
-"""
-
 import pygame
 import sys
 import json
@@ -12,7 +7,6 @@ import os
 import threading
 import anthropic
 
-# ── CONSTANTS ────────────────────────────────────────────────────────────────
 SCREEN_W, SCREEN_H = 1100, 620
 PANEL_W = 340
 GAME_W  = SCREEN_W - PANEL_W
